@@ -1,0 +1,53 @@
+body::before{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fallpicts.in%2Fwp-content%2Fuploads%2F2018%2F02%2FRed-Chinese-Wallpaper-Designs-04-of-20-with-Floral-Pattern.jpg&f=1&nofb=1&ipt=e4cea76d77ba94994ecc25a95d52054840186a7540e63e5cc9aeab320868e5ea&ipo=images);
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#main{
+    width: 90%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 235, 205, 0.8);
+}
+
+#img-div{
+    overflow: hidden;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#image{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+figcaption{
+    font-style: italic;
+    text-align: center;
+    margin-top: -20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
